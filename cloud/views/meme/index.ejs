@@ -1,0 +1,13 @@
+<div class="index">
+  <h2>POPULAR</h2>
+  
+  <% _(memes).each(function(meme) { %>
+    <div>
+      <a href="/meme/<%= meme.id %>">
+        <img src="<%= meme.get('image') %>" width="220" />
+      </a>
+    </div>
+  <% }) %>
+</div>
+
+  

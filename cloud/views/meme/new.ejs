@@ -1,0 +1,33 @@
+
+<div id="meme">
+  <form method="POST" action="/meme">
+    <div class="template">
+      <h2>CREATE A <strong>MEME</h2>
+      
+      <canvas id="image" width="200" height="200"></canvas>
+
+      <input type="text" name="text1" placeholder="TOP TEXT" maxlength="65" />
+
+      <input type="text" name="text2" placeholder="BOTTOM TEXT" maxlength="65" />
+      
+      <input type="hidden" name="data" />
+
+      <div class="buttons">
+        <button>CREATE MEME</button>
+        <div style="display:none" class="error"></div>
+      </div>
+    </div>
+
+    <div class="choose">
+      <h3>CHOOSE A MEME</h3>
+      <ul class="choices"></ul>
+    </div>
+  </form>
+
+</div>
+
+<script>
+  new MemeView({
+    el: "#meme"
+  });
+</script>

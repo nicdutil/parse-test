@@ -1,0 +1,23 @@
+<div class="show">
+  <img src='<%= meme.get('image') %>' />
+
+  <div class="social">
+    <div class="row">
+      <div class="fb-like" data-send="true" data-width="450" data-show-faces="true"></div>
+    </div>
+    <div class="row">
+      URL LINK &nbsp;
+      <input type="text" value="http://www.anymeme.org/meme/<%= meme.id %>" />
+    </div>
+  </div>
+  
+  <a href="/" class="create">Create your own meme</a>
+
+  <div class="fb-comments" data-href="http://www.anymeme.org/meme/<%= meme.id %>" data-width="470" data-num-posts="10"></div>
+</div>
+
+<script>
+  $("input").click(function(e) {
+    $(e.target).select();
+  });
+</script>
