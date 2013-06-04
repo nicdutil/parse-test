@@ -44,6 +44,8 @@ a unique subdomain for your Web Hosting url.
 run "compass watch" so that the .scss files will get
 compiled into css files in the public folder.
 
+![Signed up for Parse, made a meme platform](http://files.parse.com/a93299c2-d7be-4ea4-b15f-153e693ad8fb/4fa8a62c-c4c9-433d-a01c-43698e3b6c8a-meme.jpg)
+
 Adding Your Own Memes
 ---------------------
 
