@@ -13,9 +13,9 @@ app.use(express.methodOverride());
 app.use(app.router);
 
 // Setup your keys here (TODO: replace with dummy values before publicizing)
-app.locals.parseApplicationId = 'YOUR_APP_ID';
-app.locals.parseJavascriptKey = 'YOUR_JAVASCRIPT_KEY';
-app.locals.facebookApplicationId = 'YOUR_FB_APP_ID';
+app.locals.parseApplicationId = '0cVoHgM9zWOQaSuchoDBEWtAgeRzAReQSc0CaF7J';
+app.locals.parseJavascriptKey = 'xX9YPFsCBGJMN0G270mnzehuaP6T6MYJEoYUemOI';
+app.locals.facebookApplicationId = '700571116707231';
 
 // Setup underscore to be available in all templates
 app.locals._ = require('underscore');
